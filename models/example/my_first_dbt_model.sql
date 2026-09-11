@@ -12,9 +12,9 @@
 
 with source_data as (
 
-    select 1 as id,'dipak'as Name,'Pune' as city
+    select 1 as id,'dipak'as Name,'Pune' as city,'Male' as Gender
     union all
-    select 2 as id,'Jay' as Name,'Kallamb' as City
+    select 2 as id,'Jay' as Name,'Kallamb' as City,'Male' as Gender
 
 )
 
