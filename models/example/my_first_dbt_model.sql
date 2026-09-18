@@ -12,9 +12,9 @@
 
 with source_data as (
 
-    select 1 as id,'dipak'as Name,'Pune' as city,'Male' as Gender,'DBT_Snowflake' As Skill,'Expert' as Types
+    select 1 as id,'dipak'as Name,'Pune' as city,'Male' as Gender,'DBT_Snowflake' As Skill,'Expert' as Types,'Yes' as Val
     union all
-    select 2 as id,'Jay' as Name,'Kallamb' as City,'Male' as Gender,'Databricks_PowerBI' AS SKil,'Expert' As Types
+    select 2 as id,'Jay' as Name,'Kallamb' as City,'Male' as Gender,'Databricks_PowerBI' AS SKil,'Expert' As Types,'Yes' as Val
 
 )
 
