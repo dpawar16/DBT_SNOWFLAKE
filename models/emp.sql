@@ -1,0 +1,1 @@
+Select Current_Database(),Current_Schema(),Current_role(),* from EMP
